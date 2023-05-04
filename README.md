@@ -32,19 +32,19 @@ We have provided the preprocessed version in the folder `datasets/`.
 ```
 cd src
 
-python main_area_semantic.py --dataset diginetica --heads 4
+python main_area_semantic.py --dataset diginetica
 ```
 - To train our model on GOWALLA, after changing the dataset path in `src/dataset.py`, run from the root of the project:
 ```
 cd src
 
-python main_area_semantic.py --dataset gowalla --heads 8
+python main_area_semantic.py --dataset gowalla
 ```
 - To train our model on Last.fm, after changing the dataset path in `src/dataset.py`, run from the root of the project:
 ```
 cd src
 
-python main_area_semantic.py --dataset lastfm --heads 1 --last_k 6 --l2 0.0000145 --lr 0.0005053 --lr_dc 0.1883 --lr_dc_step 6
+python main_area_semantic.py --dataset lastfm
 ```
 To test our model on each dataset, we add following parameters after the above corresponding commands:
 ```
@@ -54,7 +54,7 @@ For example, to test our model on DIGINETICA:
 ```
 cd src
 
-python main_area_semantic.py --dataset diginetica --heads 4 --tran_flag False --PATH ../checkpoint/model.pt
+python main_area_semantic.py --dataset diginetica --tran_flag False --PATH ../checkpoint/model.pt
 ```
 
 
