@@ -99,3 +99,17 @@ cd GNN-AM/SGNN-HN-AM
 
 python main.py --dataset diginetica --tran_flag False --PATH ../checkpoint/model.pt
 ```
+
+## Citation
+
+[https://arxiv.org/pdf/2206.12781.pdf](https://arxiv.org/pdf/2206.12781.pdf)
+
+```
+@inproceedings{zhang2023efficiently,
+  title={Efficiently leveraging multi-level user intent for session-based recommendation via atten-mixer network},
+  author={Zhang, Peiyan and Guo, Jiayan and Li, Chaozhuo and Xie, Yueqi and Kim, Jae Boum and Zhang, Yan and Xie, Xing and Wang, Haohan and Kim, Sunghun},
+  booktitle={Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
+  pages={168--176},
+  year={2023}
+}
+```
