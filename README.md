@@ -4,8 +4,10 @@
 ![cuda 11.2](https://img.shields.io/badge/cuda-11.2-green.svg)
 
 ## About
-- This is our implementation for the paper:  
-[Attention Matters: Session-based Recommendation withMulti-Prior Attention Mixture Network]
+- This is the code for WSDM 2023 paper E￿iciently Leveraging Multi-level User Intent for Session-based Recommendation via A￿en-Mixer Network.
+
+## Abstract
+    Session-based recommendation (SBR) aims to predict the user’s next action based on short and dynamic sessions. Recently, there has been an increasing interest in utilizing various elaborately designed graph neural networks (GNNs) to capture the pair-wise relationships among items, seemingly suggesting the design of more complicated models is the panacea for improving the empirical performance. However, these models achieve relatively marginal improvements with exponential growth in model complexity. In this paper, we dissect the classical GNN-based SBR models and empirically ￿nd that some sophisticated GNN propagations are redundant, given the readout module plays a signi￿cant role in GNN-based models. Based on this observation, we intuitively propose to remove the GNN propagation part, while the readout module will take on more responsibility in the model reasoning process. To this end, we propose the Multi-Level Attention Mixture Network (Atten-Mixer), which leverages both concept-view and instance-view readouts to achieve multi-level reasoning over item transitions. As simply enumerating all possible high-level concepts is infeasible for large real-world recommender systems, we further incorporate SBR-related inductive biases, i.e., local invariance and inherent priority to prune the search space. Experiments on three benchmarks demonstrate the e￿ectiveness and e￿ciency of our proposal. We also have already launched the proposed techniques to a large-scale e-commercial online service since April 2021, with signi￿cant improvements of top-tier business metrics demonstrated in the online experiments on live traffic.
 
 ## Table of Contents  
 - [Requirements](#requirements)
