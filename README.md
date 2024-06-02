@@ -24,7 +24,7 @@
 Three widely used dataset are adopted:  
 
 - [DIGINETICA](http://cikm2016.cs.iupui.edu/cikm-cup): It is a transaction dataset that is obtained from CIKM Cup 2016 Challange.  
-- [GOWALLA](https://snap.stanford.edu/data/loc-gowalla.html): It is a dataset that contains users’ check-in infor- mation for point-of-interest recommendation.
+- [GOWALLA](https://snap.stanford.edu/data/loc-gowalla.html): It is a dataset that contains users’ check-in information for point-of-interest recommendation.
 - [Last.fm](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html): It is a music-artist dataset that is used for music interest recommendation. The preprocessed training file can be found here: [train.txt](https://drive.google.com/file/d/1h6bVldqeFiYeqENrZmTtYA5TvF5nSB43/view?usp=sharing).
 
 
